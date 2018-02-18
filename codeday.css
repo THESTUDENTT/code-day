@@ -1,0 +1,390 @@
+body{
+	background-color:#6D6D72;
+	font-family: 'Arvo', serif;
+	margin:0px;
+}
+.bold{
+	font-weight:bold;
+}
+.bolder{
+	font-weight:bolder;
+}
+/*Comments are done like this, copy and paste the text bellow as needed*/
+/**/
+
+
+/*PAGE ONE*/
+/*Page One Top*/
+.oneTop{
+	width:100%;
+	height:650px;
+	clear:both;
+	background-image:url("imgs/oneTop.jpg");
+}
+.onetopLeft{
+	padding: 125px 0px 0px 0px;
+	width:52%;
+	height:600px;
+	float:left;
+}
+.onetopleftP{
+	margin:5px;
+	padding:5px;
+	display:inline-block;
+	background-color:#000000;
+	font-size:40px;
+	color:#FFFFFF;
+}
+.onetopleftpTop{
+	margin-left:3%;
+}
+.onetopleftpBottom{
+	margin-left:25%;
+}
+
+.onetopRight{
+	margin: 0px 3% 0px 0px;
+	width:35%;
+	height:600px;
+	float:right;
+}
+.onetopRight form{
+	margin: 50px 0px 0px 0px;
+	padding:20px 0px 50px 0px;
+	background-color:#000000;
+	font-family: 'Arvo', serif;
+	font-size:20px;
+	color:#FFFFFF;
+}
+.onetopRight label{
+	margin: 0px 15px 50px 10px;
+}
+.onetopRight input[type=text]{
+    width: 95%;
+    padding: 12px 20px;
+	margin: 0px 15px 50px 10px;
+    box-sizing: border-box;
+	font-family: 'Arvo', serif;
+	font-weight:bold;
+}
+.onetopRight select{
+	width:95%;
+	margin: 0px 15px 40px 10px;
+	padding:5px 0px 5px 0px;
+	font-family: 'Arvo', serif;
+	font-weight:bold;
+}
+.onetoprightSignup{
+	margin-right:15px;
+	padding:10px;
+	float:right;
+	display:inline-block;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	color:#000000;	
+}
+.onetoprightSignup:hover{
+	border: 1px solid #FFFFFF;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+
+
+
+/*Page One Middle*/
+/*PUT ON HOLD FOR NOW*/
+/*.oneMiddle{
+	width:100%;
+	height:600px;
+	clear:both;
+	display:inline-block;
+}
+.onemiddleLeft{
+	width:25%;
+	height:500px;
+	margin:0px 0px 0px 6.250%;
+	display:inline-block;
+	background-color:#FFFFFF;
+}
+.onemiddleLeft img{
+	margin:2%;
+	width:96%;
+	height:275px;
+}
+.onemiddleMiddle{
+	width:25%;
+	height:500px;
+	margin:0px 0px 0px 6.250%;
+	display:inline-block;
+	background-color:#FFFFFF;
+}
+.onemiddleRight{
+	width:25%;
+	height:500px;
+	margin:0px 0px 0px 6.250%;
+	display:inline-block;
+	background-color:#FFFFFF;
+}
+*/
+
+
+
+/*PAGE TWO*/
+.twoMiddle{
+	width:100%;
+}
+.twotopP{
+	width:95%;
+	margin:auto;
+	color:#FFFFFF;
+	
+}
+#twotoptopP p{
+	display:inline-block;
+	background-color:#000000;
+	font-size:40px;
+}
+#twotopbottomP{
+	margin:0px 0px 10px 4%;
+	padding:0px 10px 0px 10px;
+	display:inline-block;
+	background-color:#000000;
+	font-size:20px;
+	letter-spacing:.8px;
+	
+}
+#twotopbottombottomP{
+	margin:0px 0px 10px 7px;
+	display:inline-block;
+}
+.twomiddleTop{
+	width:100%;
+	clear:both;
+}
+.twomiddleImg{
+	margin:0px 0px 20px 6.25%;
+	display:inline-block;
+}
+.twomiddleImg img{
+	width:300px;
+	height:300px;
+}
+.twomiddleImg p{
+	width:300px;
+	height:65px;
+	padding:22.5px 0px 2.5px 0px;
+	display:inline-block;
+	opacity:0.9;
+	background-color:#000000;
+	font-size:20px;
+	color:#FFFFFF;
+	
+}
+.twomiddleImg:hover{
+	filter:brightness(40%);
+}
+#twomiddleimg1{
+	position:absolute;
+	left:6.25%;
+	top:405px;
+}
+#twomiddleimg2{
+	position:absolute;
+	left:35%;
+	top:405px;
+	
+}
+#twomiddleimg3{
+	position:absolute;
+	right:14%;
+	top:405px;
+}
+#twomiddleimg4{
+	position:absolute;
+	left:6.25%;
+	top:730px;
+}
+#twomiddleimg5{
+	position:absolute;
+	left:35%;
+	top:730px;
+	
+}
+#twomiddleimg6{
+	position:absolute;
+	right:14%;
+	top:730px;
+}
+#twomiddleimg7{
+	position:absolute;
+	left:6.25%;
+	top:1055px;
+}
+#twomiddleimg8{
+	position:absolute;
+	left:35%;
+	top:1055px;
+	
+}
+#twomiddleimg9{
+	position:absolute;
+	right:14%;
+	top:1055px;
+}
+.twoSelected{
+	filter:brightness(40%);
+}
+.twomiddleMiddle{
+	width:100%;
+	clear:both;
+}
+.twomiddleBottom{
+	width:100%;
+	clear:both;
+}
+.twoBottom{
+	width:86.5%;
+}
+.twoSubmit{
+	margin:0px 0px 20px 0px;
+	padding:15px;
+	float:right;
+	display:block-inline;
+	background-color:#000000;
+	font-size:20px;
+	letter-spacing:1px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.twoSubmit:hover{
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	color:#000000;
+	
+}
+
+
+
+/*PAGE THREE*/
+.threeLeft{
+	width:30%;
+	height:100%;
+	float:left;
+	position: fixed;
+	background-color:#000000;
+	color:#FFFFFF;
+}
+.threeLeft form{
+	margin:20px 0px 0px 0px;
+	float:left;
+	font-size:18px;
+	font-family: 'Arvo', serif;
+	color:#FFFFFF;
+}
+.threeLeft label{
+	margin:0px 5% 0px 5%;
+	font-size:18px;
+}
+.threeLeft input[type=text]{
+	width:90%;
+	margin:0px 5% 20px 5%;
+	font-size:18px;
+	font-family: 'Arvo', serif;
+}
+.threeLeft select{
+	width:90%;
+	margin:0px 5% 10px 5%;
+	font-size:18px;
+	font-family: 'Arvo', serif;
+}
+.threeLeft input[type=checkbox]{
+	margin:0px 5% 20px 5%;
+	font-size:18px;
+}
+.threeRight{
+	width:70%;
+	float:right;
+	display:inline-block;
+}
+.threerightContainer{
+	margin:10px 0px 0px 14px;
+	padding:5px;
+	vertical-align:top;
+	width:30%;
+	height:600px;
+	display:inline-block;
+	background-color:#FFFFFF;
+}
+.threeImg{
+	width:100%;
+	height:200px;
+}
+.threeDate{
+	font-size:20px;
+	letter-spacing:1px;
+	font-weight:bolder;
+	line-height:0.5;
+}
+.threeName{
+	font-size:20px;
+	letter-spacing:1.1px;
+}
+.threeDesc{
+	font-size:16px;
+	font-weight:100;
+}
+.threeLocation{
+	font-size:15px;
+	font-weight:bold;
+}
+.threerightTop{
+	margin:5px 0px 0px 0px;
+	width:100%;
+	clear:both;
+}
+.threerightMiddle{
+	margin:25px 0px 0px 0px;
+	width:100%;
+	clear:both;
+}
+.threerightBottom{
+	margin:25px 0px 0px 0px;
+	width:100%;
+	clear:both;
+}
+.threeButton{
+	border:1px solid #000000;
+	padding:15px;
+	display:inline-block;
+	background-color:#FFFFFF;
+	font-size:18px;
+	text-decoration:none;
+	color:#000000;
+}
+.threeButton:hover{
+	border:1px solid #FFFFFF;
+	background-color:#000000;
+	font-size:18px;
+	text-decoration:none;
+	color:#FFFFFF;
+
+}
+.threeButton2{
+	margin:0px 5% 20px 5%;
+	padding:15px;
+	float:right;
+	display:inline-block;
+	background-color:#FFFFFF;
+	font-size:18px;
+	text-decoration:none;
+	color:#000000;
+}
+.threeButton2:hover{
+	border:1px solid #FFFFFF;
+	background-color:#000000;
+	font-size:18px;
+	text-decoration:none;
+	color:#FFFFFF;
+
+}
